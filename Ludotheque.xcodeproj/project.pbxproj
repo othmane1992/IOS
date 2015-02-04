@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E06170C1A82632100D5D3E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E06170B1A82632100D5D3E6 /* Foundation.framework */; };
+		6E06170E1A82632100D5D3E6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E06170D1A82632100D5D3E6 /* CoreGraphics.framework */; };
+		6E0617101A82632100D5D3E6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E06170F1A82632100D5D3E6 /* UIKit.framework */; };
+		6E0617161A82632100D5D3E6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6E0617141A82632100D5D3E6 /* InfoPlist.strings */; };
+		6E0617181A82632100D5D3E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0617171A82632100D5D3E6 /* main.m */; };
+		6E06171C1A82632100D5D3E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E06171B1A82632100D5D3E6 /* AppDelegate.m */; };
+		6E06171F1A82632100D5D3E6 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E06171D1A82632100D5D3E6 /* Main_iPhone.storyboard */; };
+		6E0617221A82632100D5D3E6 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E0617201A82632100D5D3E6 /* Main_iPad.storyboard */; };
+		6E0617251A82632100D5D3E6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0617241A82632100D5D3E6 /* ViewController.m */; };
+		6E0617271A82632100D5D3E6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E0617261A82632100D5D3E6 /* Images.xcassets */; };
+		6E06172E1A82632100D5D3E6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E06172D1A82632100D5D3E6 /* XCTest.framework */; };
+		6E06172F1A82632100D5D3E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E06170B1A82632100D5D3E6 /* Foundation.framework */; };
+		6E0617301A82632100D5D3E6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E06170F1A82632100D5D3E6 /* UIKit.framework */; };
+		6E0617381A82632200D5D3E6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6E0617361A82632200D5D3E6 /* InfoPlist.strings */; };
+		6E06173A1A82632200D5D3E6 /* LudothequeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0617391A82632200D5D3E6 /* LudothequeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E0617311A82632100D5D3E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E0617001A82632100D5D3E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E0617071A82632100D5D3E6;
+			remoteInfo = Ludotheque;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6E0617081A82632100D5D3E6 /* Ludotheque.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ludotheque.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E06170B1A82632100D5D3E6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6E06170D1A82632100D5D3E6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6E06170F1A82632100D5D3E6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6E0617131A82632100D5D3E6 /* Ludotheque-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ludotheque-Info.plist"; sourceTree = "<group>"; };
+		6E0617151A82632100D5D3E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6E0617171A82632100D5D3E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6E0617191A82632100D5D3E6 /* Ludotheque-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ludotheque-Prefix.pch"; sourceTree = "<group>"; };
+		6E06171A1A82632100D5D3E6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6E06171B1A82632100D5D3E6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6E06171E1A82632100D5D3E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		6E0617211A82632100D5D3E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		6E0617231A82632100D5D3E6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6E0617241A82632100D5D3E6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6E0617261A82632100D5D3E6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6E06172C1A82632100D5D3E6 /* LudothequeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LudothequeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E06172D1A82632100D5D3E6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6E0617351A82632200D5D3E6 /* LudothequeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LudothequeTests-Info.plist"; sourceTree = "<group>"; };
+		6E0617371A82632200D5D3E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6E0617391A82632200D5D3E6 /* LudothequeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LudothequeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E0617051A82632100D5D3E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E06170E1A82632100D5D3E6 /* CoreGraphics.framework in Frameworks */,
+				6E0617101A82632100D5D3E6 /* UIKit.framework in Frameworks */,
+				6E06170C1A82632100D5D3E6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E0617291A82632100D5D3E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E06172E1A82632100D5D3E6 /* XCTest.framework in Frameworks */,
+				6E0617301A82632100D5D3E6 /* UIKit.framework in Frameworks */,
+				6E06172F1A82632100D5D3E6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E0616FF1A82632100D5D3E6 = {
+			isa = PBXGroup;
+			children = (
+				6E0617111A82632100D5D3E6 /* Ludotheque */,
+				6E0617331A82632100D5D3E6 /* LudothequeTests */,
+				6E06170A1A82632100D5D3E6 /* Frameworks */,
+				6E0617091A82632100D5D3E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6E0617091A82632100D5D3E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E0617081A82632100D5D3E6 /* Ludotheque.app */,
+				6E06172C1A82632100D5D3E6 /* LudothequeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E06170A1A82632100D5D3E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E06170B1A82632100D5D3E6 /* Foundation.framework */,
+				6E06170D1A82632100D5D3E6 /* CoreGraphics.framework */,
+				6E06170F1A82632100D5D3E6 /* UIKit.framework */,
+				6E06172D1A82632100D5D3E6 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6E0617111A82632100D5D3E6 /* Ludotheque */ = {
+			isa = PBXGroup;
+			children = (
+				6E06171A1A82632100D5D3E6 /* AppDelegate.h */,
+				6E06171B1A82632100D5D3E6 /* AppDelegate.m */,
+				6E06171D1A82632100D5D3E6 /* Main_iPhone.storyboard */,
+				6E0617201A82632100D5D3E6 /* Main_iPad.storyboard */,
+				6E0617231A82632100D5D3E6 /* ViewController.h */,
+				6E0617241A82632100D5D3E6 /* ViewController.m */,
+				6E0617261A82632100D5D3E6 /* Images.xcassets */,
+				6E0617121A82632100D5D3E6 /* Supporting Files */,
+			);
+			path = Ludotheque;
+			sourceTree = "<group>";
+		};
+		6E0617121A82632100D5D3E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E0617131A82632100D5D3E6 /* Ludotheque-Info.plist */,
+				6E0617141A82632100D5D3E6 /* InfoPlist.strings */,
+				6E0617171A82632100D5D3E6 /* main.m */,
+				6E0617191A82632100D5D3E6 /* Ludotheque-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6E0617331A82632100D5D3E6 /* LudothequeTests */ = {
+			isa = PBXGroup;
+			children = (
+				6E0617391A82632200D5D3E6 /* LudothequeTests.m */,
+				6E0617341A82632200D5D3E6 /* Supporting Files */,
+			);
+			path = LudothequeTests;
+			sourceTree = "<group>";
+		};
+		6E0617341A82632200D5D3E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E0617351A82632200D5D3E6 /* LudothequeTests-Info.plist */,
+				6E0617361A82632200D5D3E6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E0617071A82632100D5D3E6 /* Ludotheque */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E06173D1A82632200D5D3E6 /* Build configuration list for PBXNativeTarget "Ludotheque" */;
+			buildPhases = (
+				6E0617041A82632100D5D3E6 /* Sources */,
+				6E0617051A82632100D5D3E6 /* Frameworks */,
+				6E0617061A82632100D5D3E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ludotheque;
+			productName = Ludotheque;
+			productReference = 6E0617081A82632100D5D3E6 /* Ludotheque.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6E06172B1A82632100D5D3E6 /* LudothequeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E0617401A82632200D5D3E6 /* Build configuration list for PBXNativeTarget "LudothequeTests" */;
+			buildPhases = (
+				6E0617281A82632100D5D3E6 /* Sources */,
+				6E0617291A82632100D5D3E6 /* Frameworks */,
+				6E06172A1A82632100D5D3E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E0617321A82632100D5D3E6 /* PBXTargetDependency */,
+			);
+			name = LudothequeTests;
+			productName = LudothequeTests;
+			productReference = 6E06172C1A82632100D5D3E6 /* LudothequeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E0617001A82632100D5D3E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Babacar Thiaw and Othmane El Kouahy";
+				TargetAttributes = {
+					6E06172B1A82632100D5D3E6 = {
+						TestTargetID = 6E0617071A82632100D5D3E6;
+					};
+				};
+			};
+			buildConfigurationList = 6E0617031A82632100D5D3E6 /* Build configuration list for PBXProject "Ludotheque" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E0616FF1A82632100D5D3E6;
+			productRefGroup = 6E0617091A82632100D5D3E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E0617071A82632100D5D3E6 /* Ludotheque */,
+				6E06172B1A82632100D5D3E6 /* LudothequeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E0617061A82632100D5D3E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E0617221A82632100D5D3E6 /* Main_iPad.storyboard in Resources */,
+				6E0617271A82632100D5D3E6 /* Images.xcassets in Resources */,
+				6E06171F1A82632100D5D3E6 /* Main_iPhone.storyboard in Resources */,
+				6E0617161A82632100D5D3E6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E06172A1A82632100D5D3E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E0617381A82632200D5D3E6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E0617041A82632100D5D3E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E0617251A82632100D5D3E6 /* ViewController.m in Sources */,
+				6E06171C1A82632100D5D3E6 /* AppDelegate.m in Sources */,
+				6E0617181A82632100D5D3E6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E0617281A82632100D5D3E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E06173A1A82632200D5D3E6 /* LudothequeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E0617321A82632100D5D3E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E0617071A82632100D5D3E6 /* Ludotheque */;
+			targetProxy = 6E0617311A82632100D5D3E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6E0617141A82632100D5D3E6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E0617151A82632100D5D3E6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6E06171D1A82632100D5D3E6 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E06171E1A82632100D5D3E6 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		6E0617201A82632100D5D3E6 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E0617211A82632100D5D3E6 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		6E0617361A82632200D5D3E6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E0617371A82632200D5D3E6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6E06173B1A82632200D5D3E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E06173C1A82632200D5D3E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E06173E1A82632200D5D3E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ludotheque/Ludotheque-Prefix.pch";
+				INFOPLIST_FILE = "Ludotheque/Ludotheque-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6E06173F1A82632200D5D3E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ludotheque/Ludotheque-Prefix.pch";
+				INFOPLIST_FILE = "Ludotheque/Ludotheque-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6E0617411A82632200D5D3E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Ludotheque.app/Ludotheque";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ludotheque/Ludotheque-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LudothequeTests/LudothequeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6E0617421A82632200D5D3E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Ludotheque.app/Ludotheque";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ludotheque/Ludotheque-Prefix.pch";
+				INFOPLIST_FILE = "LudothequeTests/LudothequeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E0617031A82632100D5D3E6 /* Build configuration list for PBXProject "Ludotheque" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E06173B1A82632200D5D3E6 /* Debug */,
+				6E06173C1A82632200D5D3E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E06173D1A82632200D5D3E6 /* Build configuration list for PBXNativeTarget "Ludotheque" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E06173E1A82632200D5D3E6 /* Debug */,
+				6E06173F1A82632200D5D3E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6E0617401A82632200D5D3E6 /* Build configuration list for PBXNativeTarget "LudothequeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E0617411A82632200D5D3E6 /* Debug */,
+				6E0617421A82632200D5D3E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E0617001A82632100D5D3E6 /* Project object */;
+}
