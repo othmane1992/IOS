@@ -21,7 +21,16 @@
 		6E06172F1A82632100D5D3E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E06170B1A82632100D5D3E6 /* Foundation.framework */; };
 		6E0617301A82632100D5D3E6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E06170F1A82632100D5D3E6 /* UIKit.framework */; };
 		6E0617381A82632200D5D3E6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6E0617361A82632200D5D3E6 /* InfoPlist.strings */; };
-		6E06173A1A82632200D5D3E6 /* LudothequeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0617391A82632200D5D3E6 /* LudothequeTests.m */; };
+		6E06173A1A82632200D5D3E6 /* ****------------------------.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0617391A82632200D5D3E6 /* ****------------------------.m */; };
+		6E0617451A82637000D5D3E6 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0617441A82637000D5D3E6 /* Game.m */; };
+		6E0617481A82638500D5D3E6 /* Type.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0617471A82638500D5D3E6 /* Type.m */; };
+		6E06174B1A82639800D5D3E6 /* Ludotheque.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E06174A1A82639800D5D3E6 /* Ludotheque.m */; };
+		6E06174C1A826BCB00D5D3E6 /* Ludotheque.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E06174A1A82639800D5D3E6 /* Ludotheque.m */; };
+		6E06174D1A826BCF00D5D3E6 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0617441A82637000D5D3E6 /* Game.m */; };
+		6E06174E1A826BD400D5D3E6 /* Type.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0617471A82638500D5D3E6 /* Type.m */; };
+		6E3FDF0C1A8A0D0D008CF7F6 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E3FDF0B1A8A0D0D008CF7F6 /* TableViewController.m */; };
+		6E3FDF0F1A8A0F5E008CF7F6 /* AGameCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E3FDF0E1A8A0F5E008CF7F6 /* AGameCell.m */; };
+		6EC923021A94910E00BC210C /* LDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6EC923001A94910E00BC210C /* LDataModel.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +63,18 @@
 		6E06172D1A82632100D5D3E6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6E0617351A82632200D5D3E6 /* LudothequeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LudothequeTests-Info.plist"; sourceTree = "<group>"; };
 		6E0617371A82632200D5D3E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6E0617391A82632200D5D3E6 /* LudothequeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LudothequeTests.m; sourceTree = "<group>"; };
+		6E0617391A82632200D5D3E6 /* ****------------------------.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "****------------------------.m"; sourceTree = "<group>"; };
+		6E0617431A82637000D5D3E6 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		6E0617441A82637000D5D3E6 /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
+		6E0617461A82638500D5D3E6 /* Type.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Type.h; sourceTree = "<group>"; };
+		6E0617471A82638500D5D3E6 /* Type.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Type.m; sourceTree = "<group>"; };
+		6E0617491A82639800D5D3E6 /* Ludotheque.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ludotheque.h; sourceTree = "<group>"; };
+		6E06174A1A82639800D5D3E6 /* Ludotheque.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ludotheque.m; sourceTree = "<group>"; };
+		6E3FDF0A1A8A0D0D008CF7F6 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		6E3FDF0B1A8A0D0D008CF7F6 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		6E3FDF0D1A8A0F5E008CF7F6 /* AGameCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGameCell.h; sourceTree = "<group>"; };
+		6E3FDF0E1A8A0F5E008CF7F6 /* AGameCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGameCell.m; sourceTree = "<group>"; };
+		6EC923011A94910E00BC210C /* LDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LDataModel.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,9 +134,20 @@
 		6E0617111A82632100D5D3E6 /* Ludotheque */ = {
 			isa = PBXGroup;
 			children = (
+				6E3FDF0D1A8A0F5E008CF7F6 /* AGameCell.h */,
+				6E3FDF0E1A8A0F5E008CF7F6 /* AGameCell.m */,
+				6E0617431A82637000D5D3E6 /* Game.h */,
+				6E0617441A82637000D5D3E6 /* Game.m */,
+				6EC923001A94910E00BC210C /* LDataModel.xcdatamodeld */,
+				6E0617461A82638500D5D3E6 /* Type.h */,
+				6E0617471A82638500D5D3E6 /* Type.m */,
+				6E0617491A82639800D5D3E6 /* Ludotheque.h */,
+				6E06174A1A82639800D5D3E6 /* Ludotheque.m */,
 				6E06171A1A82632100D5D3E6 /* AppDelegate.h */,
 				6E06171B1A82632100D5D3E6 /* AppDelegate.m */,
 				6E06171D1A82632100D5D3E6 /* Main_iPhone.storyboard */,
+				6E3FDF0A1A8A0D0D008CF7F6 /* TableViewController.h */,
+				6E3FDF0B1A8A0D0D008CF7F6 /* TableViewController.m */,
 				6E0617201A82632100D5D3E6 /* Main_iPad.storyboard */,
 				6E0617231A82632100D5D3E6 /* ViewController.h */,
 				6E0617241A82632100D5D3E6 /* ViewController.m */,
@@ -140,7 +171,7 @@
 		6E0617331A82632100D5D3E6 /* LudothequeTests */ = {
 			isa = PBXGroup;
 			children = (
-				6E0617391A82632200D5D3E6 /* LudothequeTests.m */,
+				6E0617391A82632200D5D3E6 /* ****------------------------.m */,
 				6E0617341A82632200D5D3E6 /* Supporting Files */,
 			);
 			path = LudothequeTests;
@@ -253,9 +284,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EC923021A94910E00BC210C /* LDataModel.xcdatamodeld in Sources */,
+				6E0617481A82638500D5D3E6 /* Type.m in Sources */,
 				6E0617251A82632100D5D3E6 /* ViewController.m in Sources */,
 				6E06171C1A82632100D5D3E6 /* AppDelegate.m in Sources */,
 				6E0617181A82632100D5D3E6 /* main.m in Sources */,
+				6E0617451A82637000D5D3E6 /* Game.m in Sources */,
+				6E06174B1A82639800D5D3E6 /* Ludotheque.m in Sources */,
+				6E3FDF0F1A8A0F5E008CF7F6 /* AGameCell.m in Sources */,
+				6E3FDF0C1A8A0D0D008CF7F6 /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,7 +300,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E06173A1A82632200D5D3E6 /* LudothequeTests.m in Sources */,
+				6E06174D1A826BCF00D5D3E6 /* Game.m in Sources */,
+				6E06173A1A82632200D5D3E6 /* ****------------------------.m in Sources */,
+				6E06174C1A826BCB00D5D3E6 /* Ludotheque.m in Sources */,
+				6E06174E1A826BD400D5D3E6 /* Type.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,6 +510,7 @@
 				6E06173F1A82632200D5D3E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6E0617401A82632200D5D3E6 /* Build configuration list for PBXNativeTarget "LudothequeTests" */ = {
 			isa = XCConfigurationList;
@@ -478,8 +519,23 @@
 				6E0617421A82632200D5D3E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6EC923001A94910E00BC210C /* LDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6EC923011A94910E00BC210C /* LDataModel.xcdatamodel */,
+			);
+			currentVersion = 6EC923011A94910E00BC210C /* LDataModel.xcdatamodel */;
+			name = LDataModel.xcdatamodeld;
+			path = LudothequeModels/LDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 6E0617001A82632100D5D3E6 /* Project object */;
 }

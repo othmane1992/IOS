@@ -7,13 +7,24 @@
 //
 
 #import "AppDelegate.h"
+#import "Ludotheque.h"
 
 @implementation AppDelegate
 
+
+@synthesize library = _library;
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    NSMutableSet* liste = [[NSMutableSet alloc]init];
+    _library = [[Ludotheque alloc] initWithName:@"Maludo" andliste : liste];
+    Game* agame = [[Game alloc]initWithName:@"Uno"];
+    [_library addToLudotheque: agame];
+    Game* agame1 = [[Game alloc]initWithName:@"Dos"];
+    [_library addToLudotheque: agame1];
+    return self.library != nil;
+    
     // Override point for customization after application launch.
-    return YES;
 }
 							
 - (void)applicationWillResignActive:(UIApplication *)application
