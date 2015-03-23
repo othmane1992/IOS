@@ -7,6 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		612F57251AC0838A00B533BB /* Rule.m in Sources */ = {isa = PBXBuildFile; fileRef = 612F57241AC0838A00B533BB /* Rule.m */; };
+		612F57261AC0838A00B533BB /* Rule.m in Sources */ = {isa = PBXBuildFile; fileRef = 612F57241AC0838A00B533BB /* Rule.m */; };
+		612F57291AC0838B00B533BB /* Author.m in Sources */ = {isa = PBXBuildFile; fileRef = 612F57281AC0838B00B533BB /* Author.m */; };
+		612F572A1AC0838B00B533BB /* Author.m in Sources */ = {isa = PBXBuildFile; fileRef = 612F57281AC0838B00B533BB /* Author.m */; };
+		612F572D1AC0838B00B533BB /* Edition.m in Sources */ = {isa = PBXBuildFile; fileRef = 612F572C1AC0838B00B533BB /* Edition.m */; };
+		612F572E1AC0838B00B533BB /* Edition.m in Sources */ = {isa = PBXBuildFile; fileRef = 612F572C1AC0838B00B533BB /* Edition.m */; };
+		612F57311AC0838B00B533BB /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 612F57301AC0838B00B533BB /* Game.m */; };
+		612F57321AC0838B00B533BB /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 612F57301AC0838B00B533BB /* Game.m */; };
+		612F57351AC0838B00B533BB /* Illustrator.m in Sources */ = {isa = PBXBuildFile; fileRef = 612F57341AC0838B00B533BB /* Illustrator.m */; };
+		612F57361AC0838B00B533BB /* Illustrator.m in Sources */ = {isa = PBXBuildFile; fileRef = 612F57341AC0838B00B533BB /* Illustrator.m */; };
+		612F57391AC0838B00B533BB /* Language.m in Sources */ = {isa = PBXBuildFile; fileRef = 612F57381AC0838B00B533BB /* Language.m */; };
+		612F573A1AC0838B00B533BB /* Language.m in Sources */ = {isa = PBXBuildFile; fileRef = 612F57381AC0838B00B533BB /* Language.m */; };
+		612F573D1AC0838B00B533BB /* Theme.m in Sources */ = {isa = PBXBuildFile; fileRef = 612F573C1AC0838B00B533BB /* Theme.m */; };
+		612F573E1AC0838B00B533BB /* Theme.m in Sources */ = {isa = PBXBuildFile; fileRef = 612F573C1AC0838B00B533BB /* Theme.m */; };
+		612F57411AC0838B00B533BB /* Session.m in Sources */ = {isa = PBXBuildFile; fileRef = 612F57401AC0838B00B533BB /* Session.m */; };
+		612F57421AC0838B00B533BB /* Session.m in Sources */ = {isa = PBXBuildFile; fileRef = 612F57401AC0838B00B533BB /* Session.m */; };
+		612F57451AC0838B00B533BB /* Variant.m in Sources */ = {isa = PBXBuildFile; fileRef = 612F57441AC0838B00B533BB /* Variant.m */; };
+		612F57461AC0838B00B533BB /* Variant.m in Sources */ = {isa = PBXBuildFile; fileRef = 612F57441AC0838B00B533BB /* Variant.m */; };
+		612F57491AC0838B00B533BB /* Level.m in Sources */ = {isa = PBXBuildFile; fileRef = 612F57481AC0838B00B533BB /* Level.m */; };
+		612F574A1AC0838B00B533BB /* Level.m in Sources */ = {isa = PBXBuildFile; fileRef = 612F57481AC0838B00B533BB /* Level.m */; };
+		612F574D1AC0838B00B533BB /* Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 612F574C1AC0838B00B533BB /* Extension.m */; };
+		612F574E1AC0838B00B533BB /* Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 612F574C1AC0838B00B533BB /* Extension.m */; };
+		612F57511AC0838B00B533BB /* Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 612F57501AC0838B00B533BB /* Category.m */; };
+		612F57521AC0838B00B533BB /* Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 612F57501AC0838B00B533BB /* Category.m */; };
 		6E06170C1A82632100D5D3E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E06170B1A82632100D5D3E6 /* Foundation.framework */; };
 		6E06170E1A82632100D5D3E6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E06170D1A82632100D5D3E6 /* CoreGraphics.framework */; };
 		6E0617101A82632100D5D3E6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E06170F1A82632100D5D3E6 /* UIKit.framework */; };
@@ -22,12 +46,8 @@
 		6E0617301A82632100D5D3E6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E06170F1A82632100D5D3E6 /* UIKit.framework */; };
 		6E0617381A82632200D5D3E6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6E0617361A82632200D5D3E6 /* InfoPlist.strings */; };
 		6E06173A1A82632200D5D3E6 /* ****------------------------.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0617391A82632200D5D3E6 /* ****------------------------.m */; };
-		6E0617451A82637000D5D3E6 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0617441A82637000D5D3E6 /* Game.m */; };
-		6E0617481A82638500D5D3E6 /* Type.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0617471A82638500D5D3E6 /* Type.m */; };
 		6E06174B1A82639800D5D3E6 /* Ludotheque.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E06174A1A82639800D5D3E6 /* Ludotheque.m */; };
 		6E06174C1A826BCB00D5D3E6 /* Ludotheque.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E06174A1A82639800D5D3E6 /* Ludotheque.m */; };
-		6E06174D1A826BCF00D5D3E6 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0617441A82637000D5D3E6 /* Game.m */; };
-		6E06174E1A826BD400D5D3E6 /* Type.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0617471A82638500D5D3E6 /* Type.m */; };
 		6E3FDF0C1A8A0D0D008CF7F6 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E3FDF0B1A8A0D0D008CF7F6 /* TableViewController.m */; };
 		6E3FDF0F1A8A0F5E008CF7F6 /* AGameCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E3FDF0E1A8A0F5E008CF7F6 /* AGameCell.m */; };
 		6EC923021A94910E00BC210C /* LDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6EC923001A94910E00BC210C /* LDataModel.xcdatamodeld */; };
@@ -44,6 +64,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		612F57231AC0838A00B533BB /* Rule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rule.h; sourceTree = "<group>"; };
+		612F57241AC0838A00B533BB /* Rule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rule.m; sourceTree = "<group>"; };
+		612F57271AC0838B00B533BB /* Author.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Author.h; sourceTree = "<group>"; };
+		612F57281AC0838B00B533BB /* Author.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Author.m; sourceTree = "<group>"; };
+		612F572B1AC0838B00B533BB /* Edition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Edition.h; sourceTree = "<group>"; };
+		612F572C1AC0838B00B533BB /* Edition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Edition.m; sourceTree = "<group>"; };
+		612F572F1AC0838B00B533BB /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		612F57301AC0838B00B533BB /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
+		612F57331AC0838B00B533BB /* Illustrator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Illustrator.h; sourceTree = "<group>"; };
+		612F57341AC0838B00B533BB /* Illustrator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Illustrator.m; sourceTree = "<group>"; };
+		612F57371AC0838B00B533BB /* Language.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Language.h; sourceTree = "<group>"; };
+		612F57381AC0838B00B533BB /* Language.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Language.m; sourceTree = "<group>"; };
+		612F573B1AC0838B00B533BB /* Theme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Theme.h; sourceTree = "<group>"; };
+		612F573C1AC0838B00B533BB /* Theme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Theme.m; sourceTree = "<group>"; };
+		612F573F1AC0838B00B533BB /* Session.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Session.h; sourceTree = "<group>"; };
+		612F57401AC0838B00B533BB /* Session.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Session.m; sourceTree = "<group>"; };
+		612F57431AC0838B00B533BB /* Variant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Variant.h; sourceTree = "<group>"; };
+		612F57441AC0838B00B533BB /* Variant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Variant.m; sourceTree = "<group>"; };
+		612F57471AC0838B00B533BB /* Level.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Level.h; sourceTree = "<group>"; };
+		612F57481AC0838B00B533BB /* Level.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Level.m; sourceTree = "<group>"; };
+		612F574B1AC0838B00B533BB /* Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Extension.h; sourceTree = "<group>"; };
+		612F574C1AC0838B00B533BB /* Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Extension.m; sourceTree = "<group>"; };
+		612F574F1AC0838B00B533BB /* Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Category.h; sourceTree = "<group>"; };
+		612F57501AC0838B00B533BB /* Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Category.m; sourceTree = "<group>"; };
 		6E0617081A82632100D5D3E6 /* Ludotheque.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ludotheque.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E06170B1A82632100D5D3E6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6E06170D1A82632100D5D3E6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -64,10 +108,6 @@
 		6E0617351A82632200D5D3E6 /* LudothequeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LudothequeTests-Info.plist"; sourceTree = "<group>"; };
 		6E0617371A82632200D5D3E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6E0617391A82632200D5D3E6 /* ****------------------------.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "****------------------------.m"; sourceTree = "<group>"; };
-		6E0617431A82637000D5D3E6 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
-		6E0617441A82637000D5D3E6 /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
-		6E0617461A82638500D5D3E6 /* Type.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Type.h; sourceTree = "<group>"; };
-		6E0617471A82638500D5D3E6 /* Type.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Type.m; sourceTree = "<group>"; };
 		6E0617491A82639800D5D3E6 /* Ludotheque.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ludotheque.h; sourceTree = "<group>"; };
 		6E06174A1A82639800D5D3E6 /* Ludotheque.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ludotheque.m; sourceTree = "<group>"; };
 		6E3FDF0A1A8A0D0D008CF7F6 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
@@ -101,6 +141,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		612F56FE1AC0832E00B533BB /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				612F574F1AC0838B00B533BB /* Category.h */,
+				612F57501AC0838B00B533BB /* Category.m */,
+				612F574B1AC0838B00B533BB /* Extension.h */,
+				612F574C1AC0838B00B533BB /* Extension.m */,
+				612F57471AC0838B00B533BB /* Level.h */,
+				612F57481AC0838B00B533BB /* Level.m */,
+				612F57431AC0838B00B533BB /* Variant.h */,
+				612F57441AC0838B00B533BB /* Variant.m */,
+				612F573F1AC0838B00B533BB /* Session.h */,
+				612F57401AC0838B00B533BB /* Session.m */,
+				612F573B1AC0838B00B533BB /* Theme.h */,
+				612F573C1AC0838B00B533BB /* Theme.m */,
+				612F57371AC0838B00B533BB /* Language.h */,
+				612F57381AC0838B00B533BB /* Language.m */,
+				612F57331AC0838B00B533BB /* Illustrator.h */,
+				612F57341AC0838B00B533BB /* Illustrator.m */,
+				612F572F1AC0838B00B533BB /* Game.h */,
+				612F57301AC0838B00B533BB /* Game.m */,
+				612F572B1AC0838B00B533BB /* Edition.h */,
+				612F572C1AC0838B00B533BB /* Edition.m */,
+				612F57271AC0838B00B533BB /* Author.h */,
+				612F57281AC0838B00B533BB /* Author.m */,
+				612F57231AC0838A00B533BB /* Rule.h */,
+				612F57241AC0838A00B533BB /* Rule.m */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
 		6E0616FF1A82632100D5D3E6 = {
 			isa = PBXGroup;
 			children = (
@@ -134,13 +205,10 @@
 		6E0617111A82632100D5D3E6 /* Ludotheque */ = {
 			isa = PBXGroup;
 			children = (
+				612F56FE1AC0832E00B533BB /* CoreData */,
 				6E3FDF0D1A8A0F5E008CF7F6 /* AGameCell.h */,
 				6E3FDF0E1A8A0F5E008CF7F6 /* AGameCell.m */,
-				6E0617431A82637000D5D3E6 /* Game.h */,
-				6E0617441A82637000D5D3E6 /* Game.m */,
 				6EC923001A94910E00BC210C /* LDataModel.xcdatamodeld */,
-				6E0617461A82638500D5D3E6 /* Type.h */,
-				6E0617471A82638500D5D3E6 /* Type.m */,
 				6E0617491A82639800D5D3E6 /* Ludotheque.h */,
 				6E06174A1A82639800D5D3E6 /* Ludotheque.m */,
 				6E06171A1A82632100D5D3E6 /* AppDelegate.h */,
@@ -285,12 +353,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				6EC923021A94910E00BC210C /* LDataModel.xcdatamodeld in Sources */,
-				6E0617481A82638500D5D3E6 /* Type.m in Sources */,
+				612F57311AC0838B00B533BB /* Game.m in Sources */,
+				612F57391AC0838B00B533BB /* Language.m in Sources */,
+				612F57511AC0838B00B533BB /* Category.m in Sources */,
+				612F57251AC0838A00B533BB /* Rule.m in Sources */,
+				612F57291AC0838B00B533BB /* Author.m in Sources */,
 				6E0617251A82632100D5D3E6 /* ViewController.m in Sources */,
+				612F57351AC0838B00B533BB /* Illustrator.m in Sources */,
+				612F573D1AC0838B00B533BB /* Theme.m in Sources */,
 				6E06171C1A82632100D5D3E6 /* AppDelegate.m in Sources */,
+				612F57451AC0838B00B533BB /* Variant.m in Sources */,
 				6E0617181A82632100D5D3E6 /* main.m in Sources */,
-				6E0617451A82637000D5D3E6 /* Game.m in Sources */,
+				612F572D1AC0838B00B533BB /* Edition.m in Sources */,
+				612F57491AC0838B00B533BB /* Level.m in Sources */,
+				612F57411AC0838B00B533BB /* Session.m in Sources */,
 				6E06174B1A82639800D5D3E6 /* Ludotheque.m in Sources */,
+				612F574D1AC0838B00B533BB /* Extension.m in Sources */,
 				6E3FDF0F1A8A0F5E008CF7F6 /* AGameCell.m in Sources */,
 				6E3FDF0C1A8A0D0D008CF7F6 /* TableViewController.m in Sources */,
 			);
@@ -300,10 +378,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E06174D1A826BCF00D5D3E6 /* Game.m in Sources */,
 				6E06173A1A82632200D5D3E6 /* ****------------------------.m in Sources */,
+				612F573A1AC0838B00B533BB /* Language.m in Sources */,
+				612F572E1AC0838B00B533BB /* Edition.m in Sources */,
+				612F573E1AC0838B00B533BB /* Theme.m in Sources */,
+				612F57461AC0838B00B533BB /* Variant.m in Sources */,
+				612F57361AC0838B00B533BB /* Illustrator.m in Sources */,
+				612F574A1AC0838B00B533BB /* Level.m in Sources */,
+				612F57521AC0838B00B533BB /* Category.m in Sources */,
 				6E06174C1A826BCB00D5D3E6 /* Ludotheque.m in Sources */,
-				6E06174E1A826BD400D5D3E6 /* Type.m in Sources */,
+				612F574E1AC0838B00B533BB /* Extension.m in Sources */,
+				612F57421AC0838B00B533BB /* Session.m in Sources */,
+				612F57321AC0838B00B533BB /* Game.m in Sources */,
+				612F572A1AC0838B00B533BB /* Author.m in Sources */,
+				612F57261AC0838A00B533BB /* Rule.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

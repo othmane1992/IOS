@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="3401" systemVersion="13A603" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
-    <entity name="Author" syncable="YES">
+    <entity name="Author" representedClassName="Author" syncable="YES">
         <attribute name="authorName" optional="YES" attributeType="String" syncable="YES"/>
         <relationship name="wrote" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Edition" inverseName="author" inverseEntity="Edition" syncable="YES"/>
     </entity>
-    <entity name="Category" syncable="YES">
+    <entity name="Category" representedClassName="Category" syncable="YES">
         <attribute name="categoryName" optional="YES" attributeType="String" syncable="YES"/>
         <relationship name="giveCategory" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Game" inverseName="categorised" inverseEntity="Game" syncable="YES"/>
     </entity>
-    <entity name="Edition" syncable="YES">
+    <entity name="Edition" representedClassName="Edition" syncable="YES">
         <attribute name="editionName" optional="YES" attributeType="String" syncable="YES"/>
         <relationship name="author" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Author" inverseName="wrote" inverseEntity="Author" syncable="YES"/>
         <relationship name="illustrator" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Illustrator" inverseName="illustrate" inverseEntity="Illustrator" syncable="YES"/>
@@ -16,10 +16,10 @@
         <relationship name="spokenLanguage" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Language" inverseName="giveLanguage" inverseEntity="Language" syncable="YES"/>
         <relationship name="theLevel" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Level" inverseName="giveLevel" inverseEntity="Level" syncable="YES"/>
     </entity>
-    <entity name="Extension" parentEntity="Game" syncable="YES">
+    <entity name="Extension" representedClassName="Extension" parentEntity="Game" syncable="YES">
         <relationship name="extends" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Game" inverseName="isExtended" inverseEntity="Game" syncable="YES"/>
     </entity>
-    <entity name="Game" isAbstract="YES" syncable="YES">
+    <entity name="Game" representedClassName="Game" isAbstract="YES" syncable="YES">
         <attribute name="gameAuthor" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="gameCreationDate" optional="YES" attributeType="Date" syncable="YES"/>
         <attribute name="gameName" optional="YES" attributeType="String" syncable="YES"/>
@@ -31,33 +31,33 @@
         <relationship name="isRegulated" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Rule" inverseName="regulate" inverseEntity="Rule" syncable="YES"/>
         <relationship name="isVarianted" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Variant" inverseName="variantOf" inverseEntity="Variant" syncable="YES"/>
     </entity>
-    <entity name="Illustrator" syncable="YES">
+    <entity name="Illustrator" representedClassName="Illustrator" syncable="YES">
         <attribute name="illustratorName" optional="YES" attributeType="String" syncable="YES"/>
         <relationship name="illustrate" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Edition" inverseName="illustrator" inverseEntity="Edition" syncable="YES"/>
     </entity>
-    <entity name="Language" syncable="YES">
+    <entity name="Language" representedClassName="Language" syncable="YES">
         <attribute name="languageName" optional="YES" attributeType="String" syncable="YES"/>
         <relationship name="giveLanguage" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Edition" inverseName="spokenLanguage" inverseEntity="Edition" syncable="YES"/>
     </entity>
-    <entity name="Level" syncable="YES">
+    <entity name="Level" representedClassName="Level" syncable="YES">
         <attribute name="levelName" optional="YES" attributeType="String" syncable="YES"/>
         <relationship name="giveLevel" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Edition" inverseName="theLevel" inverseEntity="Edition" syncable="YES"/>
     </entity>
-    <entity name="Rule" syncable="YES">
+    <entity name="Rule" representedClassName="Rule" syncable="YES">
         <attribute name="ruleName" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="ruleNumberPlayers" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
         <attribute name="ruleWinnigPrinciple" optional="YES" attributeType="String" syncable="YES"/>
         <relationship name="regulate" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Game" inverseName="isRegulated" inverseEntity="Game" syncable="YES"/>
     </entity>
-    <entity name="Session" syncable="YES">
+    <entity name="Session" representedClassName="Session" syncable="YES">
         <attribute name="sessionName" optional="YES" attributeType="String" syncable="YES"/>
         <relationship name="giveSession" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Game" inverseName="gameSession" inverseEntity="Game" syncable="YES"/>
     </entity>
-    <entity name="Theme" syncable="YES">
+    <entity name="Theme" representedClassName="Theme" syncable="YES">
         <attribute name="themeName" optional="YES" attributeType="String" syncable="YES"/>
         <relationship name="giveTheme" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Game" inverseName="gameTheme" inverseEntity="Game" syncable="YES"/>
     </entity>
-    <entity name="Variant" parentEntity="Game" syncable="YES">
+    <entity name="Variant" representedClassName="Variant" parentEntity="Game" syncable="YES">
         <relationship name="variantOf" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Game" inverseName="isVarianted" inverseEntity="Game" syncable="YES"/>
     </entity>
     <elements>

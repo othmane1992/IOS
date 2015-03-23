@@ -2,27 +2,31 @@
 //  Game.m
 //  Ludotheque
 //
-//  Created by Babacar-sobel Thiaw on 04/02/2015.
+//  Created by Othmane El-kouahy on 23/03/2015.
 //  Copyright (c) 2015 Babacar Thiaw and Othmane El Kouahy. All rights reserved.
 //
 
 #import "Game.h"
+#import "Category.h"
+#import "Edition.h"
+#import "Extension.h"
+#import "Rule.h"
+#import "Session.h"
+#import "Theme.h"
+#import "Variant.h"
+
 
 @implementation Game
 
-- (id)initWithName:(NSString*)aName
-{
-    return [self initWithName:aName andDesc:nil];
-    
-}
-- (id)initWithName:(NSString*)aName andDesc:(NSString*)description
-{
-    self = [super init];
-    if (self) {
-        self->_nom = aName;
-        self->_description = description;
-    }
-    return self;
-}
+@dynamic gameAuthor;
+@dynamic gameCreationDate;
+@dynamic gameName;
+@dynamic categorised;
+@dynamic edited;
+@dynamic gameSession;
+@dynamic gameTheme;
+@dynamic isRegulated;
+@dynamic isExtended;
+@dynamic isVarianted;
 
 @end
