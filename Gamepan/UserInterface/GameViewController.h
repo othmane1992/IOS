@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  GameViewController.h
 //  Gamepan
 //
 //  Created by Babacar-sobel Thiaw on 25/03/2015.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface GameViewController : UIViewController
 
 @end

@@ -25,5 +25,7 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+- (IBAction)changePage:(id)sender {
+}
 
 @end

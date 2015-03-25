@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  ViewController.h
 //  Gamepan
 //
 //  Created by Babacar-sobel Thiaw on 25/03/2015.
@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface ViewController : UIViewController
 
-@property (strong, nonatomic) UIWindow *window;
 
 @end

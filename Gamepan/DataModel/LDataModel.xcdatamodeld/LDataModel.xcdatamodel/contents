@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5064" systemVersion="13D65" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Category" representedClassName="Category" syncable="YES">
+        <attribute name="categoryName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="giveCategory" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Game" inverseName="categorised" inverseEntity="Game" syncable="YES"/>
+    </entity>
+    <entity name="Edition" representedClassName="Edition" syncable="YES">
+        <attribute name="editionName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="author" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Person" inverseName="wrote" inverseEntity="Person" syncable="YES"/>
+        <relationship name="editor" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Editor" inverseName="edited" inverseEntity="Editor" syncable="YES"/>
+        <relationship name="illustrator" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Person" inverseName="illustrated" inverseEntity="Person" syncable="YES"/>
+        <relationship name="relatedGame" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Game" inverseName="edited" inverseEntity="Game" syncable="YES"/>
+        <relationship name="spokenLanguage" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Language" inverseName="giveLanguage" inverseEntity="Language" syncable="YES"/>
+        <relationship name="theLevel" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Level" inverseName="giveLevel" inverseEntity="Level" syncable="YES"/>
+    </entity>
+    <entity name="Editor" representedClassName="Editor" syncable="YES">
+        <attribute name="editorName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="edited" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Edition" inverseName="editor" inverseEntity="Edition" syncable="YES"/>
+    </entity>
+    <entity name="Extension" representedClassName="Extension" parentEntity="Game" syncable="YES">
+        <relationship name="extends" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Game" inverseName="isExtended" inverseEntity="Game" syncable="YES"/>
+    </entity>
+    <entity name="Game" representedClassName="Game" isAbstract="YES" syncable="YES">
+        <attribute name="gameAuthor" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="gameCreationDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="gameName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="categorised" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Category" inverseName="giveCategory" inverseEntity="Category" syncable="YES"/>
+        <relationship name="edited" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Edition" inverseName="relatedGame" inverseEntity="Edition" syncable="YES"/>
+        <relationship name="gameSession" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Session" inverseName="giveSession" inverseEntity="Session" syncable="YES"/>
+        <relationship name="gameTheme" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Theme" inverseName="giveTheme" inverseEntity="Theme" syncable="YES"/>
+        <relationship name="isExtended" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Extension" inverseName="extends" inverseEntity="Extension" syncable="YES"/>
+        <relationship name="isRegulated" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Rule" inverseName="regulate" inverseEntity="Rule" syncable="YES"/>
+        <relationship name="isVarianted" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Variant" inverseName="variantOf" inverseEntity="Variant" syncable="YES"/>
+    </entity>
+    <entity name="Language" representedClassName="Language" syncable="YES">
+        <attribute name="languageName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="giveLanguage" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Edition" inverseName="spokenLanguage" inverseEntity="Edition" syncable="YES"/>
+    </entity>
+    <entity name="Level" representedClassName="Level" syncable="YES">
+        <attribute name="levelName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="giveLevel" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Edition" inverseName="theLevel" inverseEntity="Edition" syncable="YES"/>
+    </entity>
+    <entity name="Person" representedClassName="Author" syncable="YES">
+        <attribute name="firstName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="illustrated" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Edition" inverseName="illustrator" inverseEntity="Edition" syncable="YES"/>
+        <relationship name="wrote" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Edition" inverseName="author" inverseEntity="Edition" syncable="YES"/>
+    </entity>
+    <entity name="Rule" representedClassName="Rule" syncable="YES">
+        <attribute name="ruleName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ruleNumberPlayers" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="ruleWinnigPrinciple" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="regulate" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Game" inverseName="isRegulated" inverseEntity="Game" syncable="YES"/>
+    </entity>
+    <entity name="Session" representedClassName="Session" syncable="YES">
+        <attribute name="sessionDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="sessionName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sessionScore" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="giveSession" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Game" inverseName="gameSession" inverseEntity="Game" syncable="YES"/>
+    </entity>
+    <entity name="Theme" representedClassName="Theme" syncable="YES">
+        <attribute name="themeName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="giveTheme" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Game" inverseName="gameTheme" inverseEntity="Game" syncable="YES"/>
+    </entity>
+    <entity name="Variant" representedClassName="Variant" parentEntity="Game" syncable="YES">
+        <relationship name="variantOf" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Game" inverseName="isVarianted" inverseEntity="Game" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Category" positionX="-1413" positionY="-1782" width="128" height="73"/>
+        <element name="Edition" positionX="-1350" positionY="-1516" width="128" height="148"/>
+        <element name="Editor" positionX="-1559" positionY="-1683" width="128" height="73"/>
+        <element name="Extension" positionX="-1307" positionY="-1255" width="128" height="58"/>
+        <element name="Game" positionX="-1134" positionY="-1575" width="128" height="193"/>
+        <element name="Language" positionX="-1611" positionY="-1449" width="135" height="73"/>
+        <element name="Level" positionX="-1584" positionY="-1305" width="128" height="73"/>
+        <element name="Person" positionX="-1604" positionY="-1588" width="128" height="103"/>
+        <element name="Rule" positionX="-1019" positionY="-1737" width="128" height="103"/>
+        <element name="Session" positionX="-920" positionY="-1585" width="128" height="103"/>
+        <element name="Theme" positionX="-839" positionY="-1432" width="128" height="73"/>
+        <element name="Variant" positionX="-1037" positionY="-1255" width="128" height="58"/>
+    </elements>
+</model>
